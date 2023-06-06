@@ -12,5 +12,5 @@ jobs:
         steps:
         - uses: actions/checkout@v3
         - name: show databases
-          run: mysql -h localhost --port 3306 -u${{ secrets.DB_USER }} -p${{ secrets.DB_PASSWORD }} -e "SHOW QLS DATABASES";
+          run: mysql -h localhost --port 3306 -u root -p Qu3st4$100k!! -e "SHOW QLS DATABASES";
 
