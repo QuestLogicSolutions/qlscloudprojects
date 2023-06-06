@@ -1,0 +1,9 @@
+name: qlsdockerdb
+run-name: Setting up the qlsdockerdb database
+on: [push]
+jobs: 
+    test-output: 
+        runs-on: ubuntu-latest
+        steps:
+        - name: Test Output
+          run: echo "Here is a test"
