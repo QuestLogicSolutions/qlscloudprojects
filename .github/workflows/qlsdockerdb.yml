@@ -6,4 +6,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: QLS Docker DB
-          run: echo "Here is a test"
+          run: echo "QLS Docker DB"
